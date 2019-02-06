@@ -4,10 +4,13 @@ import setuptools
 
 setuptools.setup(
     name="pkg-examples",
-    version="0.0.1",
-    author="Example Author",
-    author_email="author@example.com",
+    version="0.1",
+    author="madhusudanan kandasamy",
+    author_email="madhukandasamy@yahoo.com",
     description="A small example package",
-    url="https://github.com/pypa/sampleproject",
+    url="https://github.com/kmadhugit/pkg_example.git",
     packages=setuptools.find_packages(),
+    install_requires = [
+        'flask'
+        ]
 )
