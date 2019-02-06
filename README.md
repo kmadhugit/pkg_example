@@ -29,6 +29,7 @@ Read the below link
 
 * pip show pkg-examples
 
+* pip show -f pkg-examples
 
 
 
@@ -40,4 +41,26 @@ https://stackoverflow.com/questions/21306954/how-to-remove-pip-package-after-del
 * delete all of them.
 * verify with pip list and pip show.
 
+# upload to PiPy
 
+* https://medium.com/@joel.barmettler/how-to-upload-your-python-package-to-pypi-65edc5fe9c56
+
+##  Build the distribution file
+```
+python setup.py sdist
+find dist
+```
+## upload
+```
+pip install twine
+#find the location of twine binary and add it to path
+pip show -f twine
+export PATH=$PATH:~/.local/bin/
+twine upload dist/*
+```
+
+## view & install
+```
+* https://pypi.org/project/pkg-examples/
+* pip install pkg-examples
+```
