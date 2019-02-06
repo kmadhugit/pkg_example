@@ -3,9 +3,9 @@ python distribution example
 
 
 # Test whether setup works fine locally.
-* python3 setup.py sdist bdist_wheel
-or
-pip install .
+* python3 setup.py sdist bdist_wheel .  
+(or)
+* pip install .
 
 # push and install via git
 
@@ -33,7 +33,7 @@ Read the below link
 
 
 # delete
-pip unistall doesn't work, please check.
+pip unistall doesn't work, please check.  
 https://stackoverflow.com/questions/21306954/how-to-remove-pip-package-after-deleting-it-manually
 # manual uninstall
 * find all installed files in sitepackage_dir/xxx_info/RECORD
