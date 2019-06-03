@@ -1,5 +1,5 @@
-import setuptools
-
+import setuptools,os
+print(f'running pk1.pkg1_sub1.setup @ {os.getcwd()}')
 setuptools.setup(
     name="pkg-examples",
     version="0.1",
