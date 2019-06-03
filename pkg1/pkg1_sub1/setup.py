@@ -7,7 +7,7 @@ setuptools.setup(
     author_email="madhukandasamy@yahoo.com",
     description="A small example package",
     url="https://github.com/kmadhugit/pkg_example.git",
-    packages=['pkg1_sub1'],
+    packages=['pkg1.pkg1_sub1'],
     install_requires = [
         'flask'
         ]
