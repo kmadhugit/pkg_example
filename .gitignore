@@ -1,13 +1,18 @@
 # Byte-compiled / optimized / DLL files
+helm-repository/
 __pycache__/
 *.py[cod]
 *$py.class
+.idea/
+.idea
 
 # C extensions
 *.so
-
+xpdf-tools/
 # Distribution / packaging
 .Python
+.idea
+.DS_Store
 build/
 develop-eggs/
 dist/
