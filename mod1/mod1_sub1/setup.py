@@ -14,6 +14,6 @@ setuptools.setup(
     package_dir={'':f'{pdir}'},
     packages=['mod1_sub1'],
     install_requires = [
-        'flask'
+        'base'
         ]
 )
